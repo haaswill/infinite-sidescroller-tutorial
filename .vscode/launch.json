@@ -8,6 +8,7 @@
       "name": "Launch",
       "type": "godot",
       "request": "launch",
+      "scene": "main",
       "project": "${workspaceFolder}",
       "debug_collisions": false,
       "debug_paths": false,
