@@ -70,8 +70,6 @@ func _process(delta: float) -> void:
 		# move dino and camera
 		$Dino.position.x += speed * delta * 60
 		$Camera2D.position.x += speed * delta * 60
-		print('delta', delta)
-		print(delta * 60)
 
 		# update score
 		score += int(speed)
